@@ -1,10 +1,11 @@
-INSERT INTO `product` (`id`, `groupId`, `name`, `description`, `price`, `image`, `recommend`, `sales`, `stock`, `detailImages`, `detailHtml`, `createdAt`, `updatedAt`, `version`) VALUES (1, 1, '魅蓝 Note1', '疾速双摄  1100万前置美拍', 1199.99, '/static/images/product/good1.jpg', 1, 0, 55, 'prod_detail0.jpg;prod_detail1.jpg;prod_detail2.jpg', '/static/html/prod_detail/prod-detial0.html', now(), now(), 0)
-INSERT INTO `product` (`id`, `groupId`, `name`, `description`, `price`, `image`, `recommend`, `sales`, `stock`, `detailImages`, `detailHtml`, `createdAt`, `updatedAt`, `version`) VALUES (2, 1, '魅蓝 Note2', '疾速双摄  1200万前置美拍', 1299.99, '/static/images/product/good2.jpg', 1, 2, 34, 'prod_detail0.jpg;prod_detail1.jpg;prod_detail2.jpg', '/static/html/prod_detail/prod-detial0.html', now(), now(), 0)
-INSERT INTO `product` (`id`, `groupId`, `name`, `description`, `price`, `image`, `recommend`, `sales`, `stock`, `detailImages`, `detailHtml`, `createdAt`, `updatedAt`, `version`) VALUES (3, 3, '魅蓝 Note3', '疾速双摄  1300万前置美拍', 1399.99, '/static/images/product/good3.jpg', null, 0, 21, 'prod_detail0.jpg;prod_detail1.jpg;prod_detail2.jpg', '/static/html/prod_detail/prod-detial0.html', now(), now(), 0)
-INSERT INTO `product` (`id`, `groupId`, `name`, `description`, `price`, `image`, `recommend`, `sales`, `stock`, `detailImages`, `detailHtml`, `createdAt`, `updatedAt`, `version`) VALUES (4, 3, '魅蓝 Note4', '疾速双摄  1400万前置美拍', 1499.99, '/static/images/product/good4.jpg', null, 0, 88, 'prod_detail0.jpg;prod_detail1.jpg;prod_detail2.jpg', '/static/html/prod_detail/prod-detial0.html', now(), now(), 0)
-INSERT INTO `product` (`id`, `groupId`, `name`, `description`, `price`, `image`, `recommend`, `sales`, `stock`, `detailImages`, `detailHtml`, `createdAt`, `updatedAt`, `version`) VALUES (5, 5, '魅蓝 Note5', '疾速双摄  1500万前置美拍', 1599.99, '/static/images/product/good5.jpg', 1, 3, 99, 'prod_detail0.jpg;prod_detail1.jpg;prod_detail2.jpg', '/static/html/prod_detail/prod-detial0.html', now(), now(), 0)
-INSERT INTO `product` (`id`, `groupId`, `name`, `description`, `price`, `image`, `recommend`, `sales`, `stock`, `detailImages`, `detailHtml`, `createdAt`, `updatedAt`, `version`) VALUES (6, 6, '魅蓝 Note6', '疾速双摄  1600万前置美拍', 1699.99, '/static/images/product/good6.jpg', 1, 5, 44, 'prod_detail0.jpg;prod_detail1.jpg;prod_detail2.jpg', '/static/html/prod_detail/prod-detial0.html', now(), now(), 0)
-INSERT INTO `product` (`id`, `groupId`, `name`, `description`, `price`, `image`, `recommend`, `sales`, `stock`, `detailImages`, `detailHtml`, `createdAt`, `updatedAt`, `version`) VALUES (7, 1, '魅蓝 Note7', '疾速双摄  1700万前置美拍', 1799.99, '/static/images/product/good1.jpg', 1, 0, 33, 'prod_detail0.jpg;prod_detail1.jpg;prod_detail2.jpg', '/static/html/prod_detail/prod-detial0.html', now(), now(), 0)
+INSERT INTO `product` (`id`, `groupId`, `name`, `description`, `price`, `image`, `recommend`, `sales`, `stock`, `detailImages`, `detailHtml`, `createdAt`, `updatedAt`, `version`) VALUES (1, 1, '奉化水蜜桃', '果肉丰富,宜于生食', 30.00, '/static/images/product/good1.jpg', 1, 0, 55, 'tao_prod_detail0.jpg;tao_prod_detail1.jpg;tao_prod_detail2.jpg', '/static/html/prod_detail/tao_prod-detial.html', now(), now(), 0)
+
+INSERT INTO `product` (`id`, `groupId`, `name`, `description`, `price`, `image`, `recommend`, `sales`, `stock`, `detailImages`, `detailHtml`, `createdAt`, `updatedAt`, `version`) VALUES (2, 2, '麒麟西瓜', '蛋白质、碳水化合物', 5.88, '/static/images/product/good2.jpg', 1, 2, 34, 'xigua_prod_detail0.jpg;xigua_prod_detail1.jpg;xigua_prod_detail2.jpg', '/static/html/prod_detail/xigua_prod-detial.html', now(), now(), 0)
+
+INSERT INTO `product` (`id`, `groupId`, `name`, `description`, `price`, `image`, `recommend`, `sales`, `stock`, `detailImages`, `detailHtml`, `createdAt`, `updatedAt`, `version`) VALUES (3, 2, '胡萝卜', '富含为维生素B', 5.88, '/static/images/product/good3.jpg', 1, 2, 34, 'luobo_prod_detail0.jpg;luobo_prod_detail1.jpg;luobo_prod_detail2.jpg', '/static/html/prod_detail/luobo_prod-detial.html', now(), now(), 0)
+
+INSERT INTO `product` (`id`, `groupId`, `name`, `description`, `price`, `image`, `recommend`, `sales`, `stock`, `detailImages`, `detailHtml`, `createdAt`, `updatedAt`, `version`) VALUES (4, 4, '白菜', '丰富的维生素、膳食纤维和抗氧化物质', 1.58, '/static/images/product/good4.jpg', null, 0, 21, 'baicai_prod_detail0.jpg;baicai_prod_detail1.jpg;baicai_prod_detail2.jpg', '/static/html/prod_detail/baicai_prod-detial.html', now(), now(), 0)
+
 
 INSERT INTO `advert` (`id`, `name`, `description`, `position`, `image`, `url`, `createdAt`, `updatedAt`, `version`) VALUES (1, '首页头部轮播广告图片1', null, 1, '/static/images/vt/s1.png', null, now(), now(), 0);
 INSERT INTO `advert` (`id`, `name`, `description`, `position`, `image`, `url`, `createdAt`, `updatedAt`, `version`) VALUES (2, '首页头部轮播广告图片2', null, 1, '/static/images/vt/s2.png', null, now(), now(), 0);
@@ -18,22 +19,18 @@ INSERT INTO `cart` (`id`, `userId`, `prodId`, `count`, `createdAt`, `updatedAt`,
 INSERT INTO `cart` (`id`, `userId`, `prodId`, `count`, `createdAt`, `updatedAt`, `version`) VALUES (3, 'halloffame', 3, 1, now(), now(), 0);
 INSERT INTO `cart` (`id`, `userId`, `prodId`, `count`, `createdAt`, `updatedAt`, `version`) VALUES (4, 'halloffame', 4, 1, now(), now(), 0);
 
-INSERT INTO `group_attri` (`id`, `prodGroup`, `attriId`, `attriName`, `createdAt`, `updatedAt`, `version`) VALUES (1, 1, 'colour', '颜色', now(), now(), 0);
-INSERT INTO `group_attri` (`id`, `prodGroup`, `attriId`, `attriName`, `createdAt`, `updatedAt`, `version`) VALUES (2, 1, 'version', '版本', now(), now(), 0);
-INSERT INTO `group_attri` (`id`, `prodGroup`, `attriId`, `attriName`, `createdAt`, `updatedAt`, `version`) VALUES (3, 1, 'memory', '内存', now(), now(), 0);
+INSERT INTO `group_attri` (`id`, `prodGroup`, `attriId`, `attriName`, `createdAt`, `updatedAt`, `version`) VALUES (1, 1, 'colour', '产地', now(), now(), 0);
+INSERT INTO `group_attri` (`id`, `prodGroup`, `attriId`, `attriName`, `createdAt`, `updatedAt`, `version`) VALUES (2, 1, 'version', '大小', now(), now(), 0);
+INSERT INTO `group_attri` (`id`, `prodGroup`, `attriId`, `attriName`, `createdAt`, `updatedAt`, `version`) VALUES (3, 1, 'memory', '重量', now(), now(), 0);
 INSERT INTO `group_attri` (`id`, `prodGroup`, `attriId`, `attriName`, `createdAt`, `updatedAt`, `version`) VALUES (4, 3, 'meal', '套餐', now(), now(), 0);
 INSERT INTO `group_attri` (`id`, `prodGroup`, `attriId`, `attriName`, `createdAt`, `updatedAt`, `version`) VALUES (5, 3, 'size', '大小', now(), now(), 0);
 
-INSERT INTO `group_attri_value` (`id`, `groupAttriId`, `attriValue`, `createdAt`, `updatedAt`, `version`) VALUES (1, 1, '深空灰', now(), now(), 0);
-INSERT INTO `group_attri_value` (`id`, `groupAttriId`, `attriValue`, `createdAt`, `updatedAt`, `version`) VALUES (2, 1, '红色', now(), now(), 0);
-INSERT INTO `group_attri_value` (`id`, `groupAttriId`, `attriValue`, `createdAt`, `updatedAt`, `version`) VALUES (10, 1, '蓝色', now(), now(), 0);
-INSERT INTO `group_attri_value` (`id`, `groupAttriId`, `attriValue`, `createdAt`, `updatedAt`, `version`) VALUES (3, 2, '公开版', now(), now(), 0);
-INSERT INTO `group_attri_value` (`id`, `groupAttriId`, `attriValue`, `createdAt`, `updatedAt`, `version`) VALUES (4, 2, '定制版', now(), now(), 0);
-INSERT INTO `group_attri_value` (`id`, `groupAttriId`, `attriValue`, `createdAt`, `updatedAt`, `version`) VALUES (5, 3, '64GB', now(), now(), 0);
-INSERT INTO `group_attri_value` (`id`, `groupAttriId`, `attriValue`, `createdAt`, `updatedAt`, `version`) VALUES (6, 3, '4GB', now(), now(), 0);
-INSERT INTO `group_attri_value` (`id`, `groupAttriId`, `attriValue`, `createdAt`, `updatedAt`, `version`) VALUES (7, 4, '移动', now(), now(), 0);
-INSERT INTO `group_attri_value` (`id`, `groupAttriId`, `attriValue`, `createdAt`, `updatedAt`, `version`) VALUES (8, 4, '联通', now(), now(), 0);
-INSERT INTO `group_attri_value` (`id`, `groupAttriId`, `attriValue`, `createdAt`, `updatedAt`, `version`) VALUES (9, 5, '5寸', now(), now(), 0);
+INSERT INTO `group_attri_value` (`id`, `groupAttriId`, `attriValue`, `createdAt`, `updatedAt`, `version`) VALUES (1, 1, '浙江', now(), now(), 0);
+INSERT INTO `group_attri_value` (`id`, `groupAttriId`, `attriValue`, `createdAt`, `updatedAt`, `version`) VALUES (3, 2, '大', now(), now(), 0);
+INSERT INTO `group_attri_value` (`id`, `groupAttriId`, `attriValue`, `createdAt`, `updatedAt`, `version`) VALUES (5, 3, '5kg', now(), now(), 0);
+INSERT INTO `group_attri_value` (`id`, `groupAttriId`, `attriValue`, `createdAt`, `updatedAt`, `version`) VALUES (7, 4, '无', now(), now(), 0);
+INSERT INTO `group_attri_value` (`id`, `groupAttriId`, `attriValue`, `createdAt`, `updatedAt`, `version`) VALUES (8, 4, '无', now(), now(), 0);
+INSERT INTO `group_attri_value` (`id`, `groupAttriId`, `attriValue`, `createdAt`, `updatedAt`, `version`) VALUES (9, 5, '无', now(), now(), 0);
 
 INSERT INTO `prod_attri` (`id`, `prodId`, `groupAttriValueId`, `createdAt`, `updatedAt`, `version`) VALUES (UUID(), 1, 1, now(), now(), 0);
 INSERT INTO `prod_attri` (`id`, `prodId`, `groupAttriValueId`, `createdAt`, `updatedAt`, `version`) VALUES (UUID(), 1, 3, now(), now(), 0);

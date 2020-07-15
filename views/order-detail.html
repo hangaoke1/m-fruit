@@ -114,7 +114,7 @@
 			
 			<div class="weui-btn-area" style="margin-top:5px;margin-bottom: 7px;">
 				{% if order.status == 1 or order.status == 2 %}
-				<a class="weui-btn weui-btn_primary" href="javascript:void(0);" id="wePayBtn" style="font-size: 14px;height:39px;"><i id="payLoading"></i>微信支付</a>
+				<a class="weui-btn weui-btn_primary" href="javascript:void(0);" id="wePayBtn" style="font-size: 14px;height:39px;"><i id="payLoading"></i>支付宝支付</a>
 				<a class="weui-btn weui-btn_default" href="javascript:void(0);" id="cancelBtn" style="font-size: 14px;height:39px;"><i id="cancelLoading"></i>取消订单</a>
 				{% elif order.status == 3 %}
 				<a class="weui-btn weui-btn_primary" href="javascript:void(0);" id="reminderBtn" style="font-size: 14px;height:39px;"><i id="reminderLoading"></i>提醒发货</a>
